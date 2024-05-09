@@ -37,10 +37,14 @@ library [select2](https://select2.org) is employed. select2 has an explicit depe
 on [jQuery](https://jquery.com) as well, so you may need to install the following
 additional dependencies if they are not picked up automatically.
 
+Use `node.js` version `14.16.1`
+I am currently running `npm` version `6.14.12`
+Run the following:
 ```
+npm install
 npm install select2
 npm install @types/select2
-npm install @types/jquery
+npm install @types/jquery@3.5.5
 ```
 
 ## Code
