@@ -70,7 +70,7 @@ export class BeatsPerBarPrompt implements Prompt {
 	}
 		
 	private _whenKeyPressed = (event: KeyboardEvent): void => {
-			if ((<Element> event.target).tagName != "BUTTON" && event.keyCode == 13) { // Enter key
+		if ((<Element> event.target).tagName != "BUTTON" && event.keyCode == 13) { // Enter key
 			this._saveChanges();
 		}
 	}
