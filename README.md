@@ -1,3 +1,9 @@
+# ABOUT THIS FORK
+
+Mostly just a playground to learn how the ins and outs of ultrabox.
+Most commits will likely just be attempts to add features or learn how things work.
+
+
 # UltraBox
 
 UltraBox is an online tool for sketching and sharing instrumental music.
@@ -30,6 +36,11 @@ cd ultrabox_typescript
 npm install
 npm run build
 ```
+To run this project
+```
+host \website\index.html
+```
+
 
 JummBox (and by extension, Ultrabox) makes a divergence from BeepBox that necessitates an additional dependency:
 rather than using the (rather poor) default HTML select implementation, the custom

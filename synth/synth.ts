@@ -2833,7 +2833,13 @@ export class Song {
     private static readonly _latestUltraBoxVersion: number = 5;
     // One-character variant detection at the start of URL to distinguish variants such as JummBox, Or Goldbox. "j" and "g" respectively
 	//also "u" is ultrabox lol
-    private static readonly _variant = 0x75; //"u" ~ ultrabox
+    private static readonly _variant = 0x63; //"c" ~ cerealbox haha get it because it
+    
+    // shut up loser
+    
+    
+    
+    // ok
 
     public title: string;
     public scale: number;
@@ -10879,6 +10885,12 @@ export class Synth {
             let feedbackEnd: number = feedbackAmplitudeEnd * envelopeEnds[EnvelopeComputeIndex.feedbackAmplitude];
             tone.feedbackMult = feedbackStart;
             tone.feedbackDelta = (feedbackEnd - feedbackStart) / roundedSamplesPerTick;
+
+            // TEST
+            console.log(tone.feedbackMult);
+            console.log();
+            console.log(tone.feedbackDelta);
+            // END TEST
 
 
         } else {
